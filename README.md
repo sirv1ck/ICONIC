@@ -1,4 +1,4 @@
-# Gittu - Template de Pré-venda de Token ICO/IDO/IGO com Smart Contract (React JS + Solidity)
+# StreetDogCoin - Template de Pré-venda de Token ICO/IDO/IGO com Smart Contract (React JS + Solidity)
 
 # Iniciando com o Aplicativo React
 
