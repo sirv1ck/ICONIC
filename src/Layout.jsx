@@ -15,7 +15,7 @@ const Layout = ({ pageTitle, children }) => {
     <HelmetProvider>
       <Helmet>
         {/* title tag */}
-        {pageTitle ? <title>{pageTitle}</title> : <title>Gittu</title>}
+        {pageTitle ? <title>{pageTitle}</title> : <title>CoinGatePad</title>}
 
         {/* favicon included here  */}
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
