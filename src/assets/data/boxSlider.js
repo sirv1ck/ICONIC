@@ -7,10 +7,10 @@ const Data = [
     text: "Presale Live",
   },
   {
-    text: "Price = 0.035",
+    text: "Price = 0.005",
   },
   {
-    text: "Listing = 0.060",
+    text: "Listing = 0.01",
   },
   {
     text: "Stage 2",
