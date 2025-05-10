@@ -10,37 +10,22 @@ const Data = [
   {
     title: "telegram",
     icon: TelegramImg,
-    url: "https://web.telegram.org/",
+    url: "https://t.me/CoinGatePad",
   },
   {
     title: "discord",
     icon: DiscordImg,
-    url: "https://discord.com/",
+    url: "https://discord.gg/pdzrW9sPr2",
   },
   {
     title: "twitter",
     icon: TwitterImg,
-    url: "https://twitter.com/",
+    url: "https://x.com/CoinGatePad",
   },
   {
-    title: "medium",
-    icon: MediumImg,
-    url: "https://medium.com/",
-  },
-  {
-    title: "reddit",
-    icon: RedditImg,
-    url: "https://www.reddit.com/",
-  },
-  {
-    title: "instagram",
+    title: "facebook",
     icon: InstagramImg,
-    url: "https://www.instagram.com/",
-  },
-  {
-    title: "linkedin",
-    icon: LinkedinImg,
-    url: "https://www.linkedin.com/",
+    url: "https://www.facebook.com/coingatepad",
   },
 ];
 
