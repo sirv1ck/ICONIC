@@ -36,7 +36,7 @@ const MobileMenu = ({ mobileMenuHandle }) => {
         <ul className="mobile-social-links mb-40">
           <li>
             <a
-              href="https://web.telegram.org/"
+              href="https://t.me/CoinGatePad"
               target="_blank"
               rel="noreferrer"
             >
@@ -44,12 +44,12 @@ const MobileMenu = ({ mobileMenuHandle }) => {
             </a>
           </li>
           <li>
-            <a href="https://discord.com/" target="_blank" rel="noreferrer">
+            <a href="https://discord.com/invite/pdzrW9sPr2" target="_blank" rel="noreferrer">
               <img src={Discord} alt="icon" />
             </a>
           </li>
           <li>
-            <a href="https://twitter.com/" target="_blank" rel="noreferrer">
+            <a href="https://x.com/CoinGatePad" target="_blank" rel="noreferrer">
               <img src={Twitter} alt="icon" />
             </a>
           </li>
