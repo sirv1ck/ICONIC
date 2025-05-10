@@ -1,8 +1,8 @@
 const Data = {
-  title: "Discover the next",
-  titleExtra: "big in Crypto",
+  title: "One Platform, Infinite Chains,",
+  titleExtra: "Boundless Potential!",
   subtitle:
-    "Invest in cutting-edge blockchain projects and be part of the future of web3.0 finance",
+    "Your all-in-one multi-chain DEX Launchpad, empowering projects on various blockchain networks.",
 };
 
 export default Data;
