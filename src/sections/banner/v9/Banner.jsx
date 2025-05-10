@@ -46,8 +46,8 @@ const Banner = () => {
     setIsBuyNow(!isBuyNow);
   };
 
-  const [softCap, setSoftCap] = useState("10 ETH");
-  const [hardCap, setHardCap] = useState("40 ETH");
+  const [softCap, setSoftCap] = useState("30 BNB");
+  const [hardCap, setHardCap] = useState("100 BNB");
 
   useEffect(() => {
     if (isBuyNow) {
