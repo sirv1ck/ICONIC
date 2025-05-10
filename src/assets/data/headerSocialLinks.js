@@ -6,17 +6,17 @@ const Data = [
   {
     title: "telegram",
     icon: TelegramImg,
-    url: "https://web.telegram.org/",
+    url: "https://t.me/CoinGatePad",
   },
   {
     title: "discord",
     icon: DiscordImg,
-    url: "https://discord.com/",
+    url: "https://discord.gg/pdzrW9sPr2",
   },
   {
     title: "twitter",
     icon: TwitterImg,
-    url: "https://twitter.com/",
+    url: "https://x.com/CoinGatePad",
   },
 ];
 
