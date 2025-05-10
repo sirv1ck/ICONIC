@@ -4,7 +4,7 @@ import Banner from "../sections/banner/v9/Banner";
 
 const HomeV9 = () => {
   return (
-    <Layout pageTitle="Gittu - Home Nine">
+    <Layout pageTitle="CoinGatePad - Multichain Launchpad">
       <Header variant="v7" />
       <Banner />
     </Layout>
