@@ -16,7 +16,7 @@ const App = () => {
     <HashRouter>
       <ScrollToTop />
       <Routes>
-        <Route path="/" element={<HomeV1 />} />
+        <Route path="/" element={<HomeV9 />} />
         <Route path="/home-two" element={<HomeV2 />} />
         <Route path="/home-three" element={<HomeV3 />} />
         <Route path="/home-four" element={<HomeV4 />} />
