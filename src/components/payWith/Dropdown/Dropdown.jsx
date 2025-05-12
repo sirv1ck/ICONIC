@@ -6,7 +6,6 @@ const Dropdown = ({
   variant,
   selectedImg,
   titleText,
-  setIsActiveBuyOnEth,
   setIsActiveBuyOnBnb,
   switchChain,
   makeEmptyInputs,
@@ -25,12 +24,6 @@ const Dropdown = ({
     event.preventDefault();
 
     setIsDropdownActive(false);
-    if (item.chainId == ethChainId) {
-      setIsActiveBuyOnBnb(false);
-      setIsActiveBuyOnEth(true);
-      switchChain({ chainId: ethChainId });
-      makeEmptyInputs();
-    }
     if (item.chainId == bnbChainId) {
       setIsActiveBuyOnEth(false);
       setIsActiveBuyOnBnb(true);
