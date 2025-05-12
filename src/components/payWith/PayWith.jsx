@@ -54,7 +54,6 @@ const PayWith = ({ variant }) => {
               variant="v2"
               selectedImg={selectedImg}
               titleText={titleText}
-              setIsActiveBuyOnEth={setIsActiveBuyOnEth}
               setIsActiveBuyOnBnb={setIsActiveBuyOnBnb}
               switchChain={switchChain}
               makeEmptyInputs={makeEmptyInputs}
@@ -67,7 +66,6 @@ const PayWith = ({ variant }) => {
               variant="v3"
               selectedImg={selectedImg}
               titleText={titleText}
-              setIsActiveBuyOnEth={setIsActiveBuyOnEth}
               setIsActiveBuyOnBnb={setIsActiveBuyOnBnb}
               switchChain={switchChain}
               makeEmptyInputs={makeEmptyInputs}
@@ -80,7 +78,6 @@ const PayWith = ({ variant }) => {
               variant="v4"
               selectedImg={selectedImg}
               titleText={titleText}
-              setIsActiveBuyOnEth={setIsActiveBuyOnEth}
               setIsActiveBuyOnBnb={setIsActiveBuyOnBnb}
               switchChain={switchChain}
               makeEmptyInputs={makeEmptyInputs}
