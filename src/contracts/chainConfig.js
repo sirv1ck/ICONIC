@@ -5,8 +5,17 @@ import IconEth from "../assets/images/token/eth.png";
 import IconBnb from "../assets/images/token/bnb.png";
 
 const chains = {
-  BNB: {
+  ETH: {
     id: 1,
+    icon: IconEth,
+    name: "Sepolia Testnet",
+    chainId: 11155111,
+    configModule: ConfigModuleEth,
+    payWith: "ETH",
+    title: "Buy on ETH",
+  },
+  BNB: {
+    id: 2,
     icon: IconBnb,
     name: "BNB Smart Chain Testnet",
     chainId: 97,
@@ -18,11 +27,18 @@ const chains = {
 
 export const chainInfo = [
   {
-    ...chains.BNB,
+    ...chains.ETH,
     buyChainId: chains.BNB.chainId,
     buyTitle: chains.BNB.title,
     buyIcon: chains.BNB.icon,
     buyConfigModule: chains.BNB.configModule,
+  },
+  {
+    ...chains.BNB,
+    buyChainId: chains.ETH.chainId,
+    buyTitle: chains.ETH.title,
+    buyIcon: chains.ETH.icon,
+    buyConfigModule: chains.ETH.configModule,
   },
 ];
 
