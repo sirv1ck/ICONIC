@@ -35,7 +35,7 @@ const Header = ({ variant }) => {
           <div className="gittu-header-content">
             <div className="gittu-header-left">
               <NavLink className="gittu-header-logo" to="/" end>
-                <img src={logoImg} alt="Logo" width="100%" height="auto"/>
+                <img src={logoImg} alt="Logo" width="145" height="50"/>
               </NavLink>
             </div>
             <div className="gittu-header-right">
