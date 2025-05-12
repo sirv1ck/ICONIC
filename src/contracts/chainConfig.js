@@ -19,10 +19,10 @@ const chains = {
 export const chainInfo = [
   {
     ...chains.BNB,
-    buyChainId: chains.ETH.chainId,
-    buyTitle: chains.ETH.title,
-    buyIcon: chains.ETH.icon,
-    buyConfigModule: chains.ETH.configModule,
+    buyChainId: chains.BNB.chainId,
+    buyTitle: chains.BNB.title,
+    buyIcon: chains.BNB.icon,
+    buyConfigModule: chains.BNB.configModule,
   },
 ];
 
